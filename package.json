@@ -1,0 +1,29 @@
+{
+  "name": "node-ml",
+  "description": "A Collection of Machine Learning algorithms built for use with NodeJS",
+  "version": "1.0.2",
+  "engines": {
+    "node": ">=10.9"
+  },
+  "dependencies": {
+    "sylvester": ">= 0.0.8"
+  },
+  "scripts" : {
+    "test" : "tap ./test/*.js"
+  },
+  "devDependencies" : {
+    "tap" : "~0.4.0"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/miketheprogrammer/node-ml.git"
+  },
+  "author": "Michael Hernandez <michael.hernandez1988@gmail.com>",
+  "keywords": ["machine", "learning", "ml", "classifier", "clustering", "bayes", "k-means", "logistic", "regression", "perceptron", "neural","net"],
+  "main": "./lib/index.js",
+  "maintainers": [{
+    "name": "Michael Hernandez",
+    "email": "michael.hernandez1988@gmail.com",
+    "web": "http://miketheprogrammer.com"
+  }]
+}
